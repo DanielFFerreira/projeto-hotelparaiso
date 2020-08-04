@@ -1,0 +1,43 @@
+@media (max-width: 850px) {
+  .hotel-feature .grid {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  header nav {
+    margin-top: 20px;
+  }
+  .hero h1 {
+    text-align: center;
+    margin-top: 150px;
+  }
+  .know-hotel .grid li.small, .know-hotel .grid li.large {
+    flex-basis: 100%;
+  }
+  .know-hotel p {
+    align-items: center;
+  }
+  .hero .btn {
+    margin-top: 20%;
+  }
+  .newsletter input {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* Tela com menor 500px, as fonts diminu */
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 2.2em;
+  }
+  .hero h3 {
+    font-size: 1.2em;
+  }
+  footer p {
+    text-align: center;
+  }
+}

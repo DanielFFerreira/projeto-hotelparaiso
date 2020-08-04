@@ -1,0 +1,35 @@
+main {
+  width: 100%;
+}
+
+/* BANNER HERO */
+.hero {
+  background-image: url(/img/hero.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.hero .btn {
+  background-color: var(--colorbutton);
+  border-radius: 8px;
+  color: var(--colortextbutton);
+  margin-top: 23px;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}

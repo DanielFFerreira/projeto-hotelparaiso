@@ -1,0 +1,91 @@
+.hotel-feature{
+  display: flex;
+  flex-direction: column;/*coloca os itens desse conteiner em colunas horizontais*/
+  align-items: center;/*alinha os itens do conteiner no centro*/
+  padding: 100px 50px;
+  background-color: #191c03;
+}
+.hotel-feature h3{
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: var(--colorcontent);
+  text-align: center;
+}
+.hotel-feature p{
+  max-width: 800px;
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  color: var(--colorcontent);
+  text-align: center;
+}
+.hotel-feature hr{
+  width: 200px;
+  height: 2px;
+  background-color: var(--colorcontent);
+  margin-bottom: 70px;
+}
+.hotel-feature .grid {
+  width: 100%;
+  display: flex;
+}
+.hotel-feature .grid li {
+  padding: 0 30px;
+  text-align: center;
+}
+.hotel-feature .grid li h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: var(--coloricone);
+}
+/*Newsletter*/
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
+.newsletter h3{
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: var(--colortexttwo);
+  text-align: center;
+}
+.newsletter p{
+  max-width: 800px;
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  color: var(--colortexttwo);
+  text-align: center;
+}
+.newsletter hr{
+  width: 200px;
+  height: 2px;
+  background-color: var(--colorcontent);
+  margin-bottom: 70px;
+}
+.newsletter form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+}
+.newsletter input {
+  padding: 15px;
+  border: 1px solid var(--coloricone);
+  border-radius: 10px;
+  flex: 1;
+}
+.newsletter button {
+  padding: 15px;
+  background-color: var(--colorclaro);
+  border-radius: 8px;
+  border: none;
+  color: var(--colorbutton);
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+.newsletter button:hover {
+  cursor: pointer;
+}

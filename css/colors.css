@@ -1,0 +1,20 @@
+/* Variáveis no css */
+:root {
+  --wallheader:#f7f9f9;
+  --colorlink: #566573;
+  --colorbutton:  #f4f6f6;
+  --colortextbutton: #191c03;
+  --colortext: #38610B;
+  --colortexttwo: #D6DBDF;
+  --colorcontent: #fff;
+  --coloricone: #70832F;
+  --colorclaro: #9CB44A
+}
+body {
+  --wallheader:#f7f9f9;
+  --colorlink: #566573;
+  --colorbutton:  #f4f6f6;
+  --colortext: #38610B;
+  --colorcontent: #fff;
+  --coloricone: #70832F;
+}
